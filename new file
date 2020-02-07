@@ -1,0 +1,33 @@
+describe('Kitchen',function()
+{
+	it('HRMS login',function()
+	{
+		
+		cy.visit('https://hr-staging.devsinc.com/')
+		//cy.contains('Continue with Google').click()
+
+		cy.get('.landing-page-form-field').first()
+		.type('hamza.aman@devsinc.com').should('have.value','hamza.aman@devsinc.com')
+
+
+		cy.get('.landing-page-form-field').last()
+		.type('password')
+
+		cy.get('.landing-page-button').click()
+		cy.wait(2000)
+		cy.url().should('include','/dashboard')
+		cy.request('https://hr-staging.devsinc.com/peoplea')
+		cy.url()
+
+
+		
+		
+		cy.get('#root > div > div.app-main-div > nav [role="presentation"]').should('exist') 
+		cy.get('.app-main-div [role="presentation"]').should('exist')
+		cy.get('.welcome').should('exist')
+	})
+
+
+
+
+})
