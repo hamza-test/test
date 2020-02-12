@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 b from b2
 b from b2 ---> 2nd add
 b from b2 ---> 3rd add
@@ -8,12 +5,5 @@ b from b2 ---> 3rd add
 this add after commit
 
 create code in one more branch
-=======
 my new commit on new branch
->>>>>>> parent of 38644a0... 2nd commit
-=======
 my new commit on new branch
->>>>>>> parent of 38644a0... 2nd commit
-=======
-my new commit on new branch
->>>>>>> parent of 38644a0... 2nd commit
