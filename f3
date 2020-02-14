@@ -8,9 +8,14 @@ this add after commit
 
 create code in one more branch
 my new commit on new branch
+<<<<<<< HEAD
 >>>>>>> parent of 38644a0... 2nd commit
 my new commit on new branch
 >>>>>>> parent of 38644a0... 2nd commit
 
 lets see what happened
 
+=======
+my new commit on new branch
+ my new cmmit
+>>>>>>> a9aa454ee25cf6052f681783dc8ca96e35cbf63d
